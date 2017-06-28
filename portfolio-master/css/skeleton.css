@@ -151,7 +151,7 @@ h6 { font-size: 2.3rem; line-height: 1.6;  letter-spacing: 0; }
   h3 { font-size: 4.5rem; }
   h4 { font-size: 3.5rem; }
   h5 { font-size: 3.0rem; }
-  h6 { font-size: 2.3rem; }
+  h6 { font-size: 2.5rem; }
   p { font-size: 2.3rem; font-family: 'Open Sans', sans-serif;}
 }
 
@@ -231,7 +231,7 @@ a:hover:after {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: disc; }
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -243,8 +243,11 @@ ol ol,
 ol ul {
   margin: 1rem 0 1rem 1rem;
   font-size: 90%; }
-/*li {
-  margin-bottom: 5rem; }*/
+li {
+  font-size: 2.3rem;
+  margin: 30px 0px 30px 0px;
+}
+
 
 
 /* Spacing
@@ -343,22 +346,19 @@ hr {
   display: none;
 }*/
 
-/* FE1 Sprint
-__________________________________________________ */
-.howMightWes {
-  background-image: url("http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg");
-  height: 500px;
-}
-
-.howMightWes2 {
-  background-image: url("http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg");
-  height: 500px;
-  background-position: 0px 0px;
-  background-repeat:no-repeat;
-}
 
 img {
   width: 100%;
+}
+
+.howmightweimage{
+  position: relative;
+  left: -220px;
+  width: 700px;
+}
+
+.winningQuestionsBullets {
+  margin-top: 283px;
 }
 
 
