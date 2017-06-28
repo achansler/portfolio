@@ -122,7 +122,7 @@ html {
   font-size: 62.5%; }
 body {
   font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.9;
   font-weight: 400;
   color: #222;
   background-color: #FAFAFA;
@@ -153,6 +153,7 @@ h6 { font-size: 2.3rem; line-height: 1.6;  letter-spacing: 0; }
   h5 { font-size: 3.0rem; }
   h6 { font-size: 2.5rem; }
   p { font-size: 2.3rem; font-family: 'Open Sans', sans-serif;}
+  small { font-size: 1.6rem; font-family: 'Fira Mono', monospace; font-weight: 400; display: block; text-align: right; }
 }
 
 .footerType {
@@ -352,7 +353,6 @@ img {
 }
 
 .howmightweimage{
-  position: relative;
   left: -220px;
   width: 700px;
 }
@@ -360,6 +360,29 @@ img {
 .winningQuestionsBullets {
   margin-top: 283px;
 }
+
+.relative {
+  position: relative;
+}
+
+.flows {
+  left: 0px;
+  width: 1041px;
+  margin: 25px 0px 25px 0px;
+}
+
+.candidateCaption {
+  margin-top: 64px;
+}
+
+.recruiterCaption {
+  margin-top: 90px;
+}
+
+.thmCaption {
+  margin-top: 47px;
+}
+
 
 
 /* Media Queries
