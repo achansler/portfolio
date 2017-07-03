@@ -151,9 +151,9 @@ h6 { font-size: 2.3rem; line-height: 1.6;  letter-spacing: 0; }
   h3 { font-size: 4.5rem; }
   h4 { font-size: 3.5rem; }
   h5 { font-size: 3.0rem; }
-  h6 { font-size: 2.5rem; }
+  h6 { font-size: 2.5rem;}
   p { font-size: 2.3rem; font-family: 'Open Sans', sans-serif;}
-  small { font-size: 1.6rem; font-family: 'Fira Mono', monospace; font-weight: 400; display: block; text-align: right; }
+  small { font-size: 1.6rem; font-family: 'Fira Mono', monospace; font-weight: 400; color: #4A4A4A; display: inline-block; text-align: right; }
 }
 
 .footerType {
@@ -166,6 +166,10 @@ h6 { font-size: 2.3rem; line-height: 1.6;  letter-spacing: 0; }
 
 .strikethrough {
   text-decoration: line-through;
+}
+
+.sectionHeading {
+  margin-top: 50px;
 }
 
 
@@ -360,6 +364,16 @@ img {
   width: 100%;
 }
 
+.fullSketches {
+  z-index: 0;
+  margin-top: 30px;
+}
+
+.votes {
+  position: absolute;
+  margin-top: 30px;
+}
+
 .howmightweimage{
   left: -220px;
   width: 700px;
@@ -367,6 +381,16 @@ img {
 
 .winningQuestionsBullets {
   margin-top: 283px;
+}
+
+.finalSketchImage {
+  left: 0px;
+  margin: 115px 0px 0px 0px;
+  width: 616px;
+}
+
+.definedProblemImage {
+  padding: 50px 0px 50px 0px;
 }
 
 .relative {
@@ -377,6 +401,11 @@ img {
   left: 0px;
   width: 1041px;
   margin: 25px 0px 25px 0px;
+}
+
+.scenarioWidth {
+  width: 538px;
+  left: -218px
 }
 
 .candidateCaption {
@@ -401,6 +430,30 @@ img {
 
 .crazy8Type {
   margin-top: 125px;
+}
+
+
+.greenDot {
+  background-color: #16CD5E;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+.yellowDot {
+  background-color: #F8E71C;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+.finalSketchExplaination {
+  padding-top: 465px;
+}
+
+.finalSketchCaption {
+  padding-top: 1000px;
 }
 
 
