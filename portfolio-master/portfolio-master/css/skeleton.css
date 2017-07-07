@@ -300,15 +300,10 @@ form {
   margin: 150px 0px 50px 0px;
 }
 
-nav {
+.nav {
   margin: 20px 0px 0px 0px;
 }
 
-/*.read {
-  padding-top: 15px;
-  margin-right: 86px;
-
-}*/
 
 .caseStudy {
   padding: 30px 85px 30px 85px;
@@ -355,13 +350,24 @@ hr {
   clear: both; }
 
 
-/*.readOn {
+.read {
+  padding-top: 10px;
+}
+
+/*.designSprintFullStudy {
   display: none;
 }*/
 
 
 img {
   width: 100%;
+}
+
+iframe {
+  width: 100%;
+  border: 1px solid #D8D8D8;
+  height: 3955px;
+  margin-top: 25px;
 }
 
 .fullSketches {
@@ -372,6 +378,10 @@ img {
 .votes {
   position: absolute;
   margin-top: 30px;
+}
+
+.finalScoreReport {
+  background-color: #ffffff;
 }
 
 .howmightweimage{
@@ -405,7 +415,7 @@ img {
 
 .scenarioWidth {
   width: 538px;
-  left: -218px
+  left: -400px;
 }
 
 .candidateCaption {
@@ -420,6 +430,10 @@ img {
   margin-top: 47px;
 }
 
+.scenariosScriptsCaption {
+  margin-top: 290px;
+}
+
 .example {
   margin: 60px 0px 60px 0px;
 }
@@ -430,6 +444,22 @@ img {
 
 .crazy8Type {
   margin-top: 125px;
+}
+
+.thankYouCopy {
+  margin: 30px 0px 30px 0px;
+}
+
+.scenarioMargin {
+  margin: 20px 0px 35px 0px;
+}
+
+.candidateScenarioImage {
+  margin-top: 260px;
+}
+
+.scenariosScripts {
+  margin: 65px 0px 65px 0px;
 }
 
 
