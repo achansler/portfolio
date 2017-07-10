@@ -315,10 +315,10 @@ form {
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-full-width {
+.u--width {
   width: 100%;
   box-sizing: border-box; }
-.u-max-full-width {
+.u-max--width {
   max-width: 100%;
   box-sizing: border-box; }
 .u-pull-right {
@@ -354,9 +354,13 @@ hr {
   padding-top: 10px;
 }
 
-/*.designSprintFullStudy {
+.designSprintFullStudy {
   display: none;
-}*/
+}
+
+.bambooFullStudy {
+  display: none;
+}
 
 
 img {
@@ -366,11 +370,11 @@ img {
 iframe {
   width: 100%;
   border: 1px solid #D8D8D8;
-  height: 3955px;
+  height: 4700px;
   margin-top: 25px;
 }
 
-.fullSketches {
+.Sketches {
   z-index: 0;
   margin-top: 30px;
 }
@@ -486,6 +490,28 @@ iframe {
   padding-top: 1000px;
 }
 
+
+/* Bamboo section
+--------------------------------------- */
+.bambooWirefamesImage {
+ margin: 25px 0px 0px 0px;
+}
+
+.mascotsImage {
+  margin: 40px 0px 0px 0px;
+}
+
+.bambooAppImages {
+  margin: 50px 0px 50px 0px;
+}
+
+.bambooAppDescriptionsCheckup {
+  padding-top: 150px;
+}
+
+.bambooAppDescriptionsGoal {
+  padding-top: 100px;
+}
 
 
 /* Media Queries
