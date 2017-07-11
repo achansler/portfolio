@@ -362,6 +362,10 @@ hr {
   display: none;
 }
 
+.bloomingdalesFullCaseStudy {
+  display: none;
+}
+
 
 img {
   width: 100%;
@@ -501,7 +505,7 @@ iframe {
   margin: 40px 0px 0px 0px;
 }
 
-.bambooAppImages {
+.AppImages {
   margin: 50px 0px 50px 0px;
 }
 
