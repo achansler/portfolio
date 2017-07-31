@@ -129,6 +129,7 @@ body {
 }
 
 
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
@@ -183,6 +184,10 @@ a {
   position: relative;
 }
 
+.right {
+  text-align: right;
+}
+
 .gaColor {
   color: #FA4542;
 }
@@ -204,6 +209,7 @@ a {
   border-bottom: 3px solid #9b9b9b;
   margin-bottom: 75px;
 }
+
 
 .linkedIn:hover {
   color: #0084bf;
@@ -360,18 +366,17 @@ hr {
   padding-top: 10px;
 }
 
-.designSprintFullStudy {
+.show {
   display: none;
 }
 
-.bambooFullStudy {
+.hideForClickVotes {
   display: none;
 }
 
-.bloomingdalesFullCaseStudy {
+.hideForClickRedlines {
   display: none;
 }
-
 
 img {
   width: 100%;
@@ -392,6 +397,11 @@ iframe {
 .votes {
   position: absolute;
   margin-top: 30px;
+}
+
+.redlines {
+  position: absolute;
+  padding-top: 40px;
 }
 
 .finalScoreReport {
@@ -429,7 +439,7 @@ iframe {
 
 .scenarioWidth {
   width: 538px;
-  left: -400px;
+  left: -220px;
 }
 
 .candidateCaption {
@@ -461,11 +471,15 @@ iframe {
 }
 
 .thankYouCopy {
-  margin: 30px 0px 30px 0px;
+  margin: 150px 0px 30px 0px;
 }
 
 .scenarioMargin {
-  margin: 20px 0px 35px 0px;
+  margin: 20px 0px 35px 215px;
+}
+
+.scenarioMarginTech {
+  margin: 20px 0px 35px 153px;
 }
 
 .candidateScenarioImage {
@@ -493,7 +507,7 @@ iframe {
 }
 
 .finalSketchExplaination {
-  padding-top: 465px;
+  padding-top: 125px;
 }
 
 .finalSketchCaption {

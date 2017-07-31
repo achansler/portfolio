@@ -1,18 +1,17 @@
-// console.log('hi')
-//
-// $('#designSprintFullStudyReadLink').on('click', function() {
-// 	$('div').removeClass('designSprintFullStudy');
-//   $('span').removeClass('designSprintFullStudy');
-//   $('div').removeClass('caseStudy');
-//   $('a#designSprintFullStudyReadLink').text('Close');
-//   $('a#designSprintFullStudyReadLink').addClass('closed');
-// });
+$('a.read').on('click', function() {
+	$('a.read').text('Close');
+	$('a.read').addClass('close');
+})
+
+$('a.close').on('click', function() {
+	console.log('hi');
+})
+
 
 $('a.designSprintFullStudyReadLink').on('click', function() {
 	$( 'div.designSprintFullStudy' ).toggleClass( 'show' );
 	$( 'span.designSprintFullStudy' ).toggleClass( 'show' );
-	$('div.designTitle').removeClass('caseStudy');
-	$('a.designSprintFullStudyReadLink').text('Close');
+	$('div.designTitle').toggleClass('caseStudy');
 	//make sure that "Close" goes back to Read
 
 	// put the class back on the title
@@ -23,7 +22,7 @@ $('a.designSprintFullStudyReadLink').on('click', function() {
 $('a.bloomingdalesFullStudyReadLink').on('click', function() {
 	$( 'div.bloomingdalesFullCaseStudy' ).toggleClass( 'show' );
 	$( 'span.bloomingdalesFullCaseStudy' ).toggleClass( 'show' );
-	$('div.bloomingdalesTitle').removeClass('caseStudy');
+	$('div.bloomingdalesTitle').toggleClass('caseStudy');
 	$('a.bloomingdalesFullStudyReadLink').text('Close');
 	//make sure that "Close" goes back to Read
 
@@ -35,7 +34,7 @@ $('a.bloomingdalesFullStudyReadLink').on('click', function() {
 $('a.bambooFullStudyReadLink').on('click', function() {
 	$( 'div.bambooFullStudy' ).toggleClass( 'show' );
 	$( 'span.bambooFullStudy' ).toggleClass( 'show' );
-	$('div.bambooTitle').removeClass('caseStudy');
+	$('div.bambooTitle').toggleClass('caseStudy');
 	$('a.bambooFullStudyReadLink').text('Close');
 	//make sure that "Close" goes back to Read
 
@@ -43,6 +42,7 @@ $('a.bambooFullStudyReadLink').on('click', function() {
 	//add a nice slide animation
 
 });
+
 
 $('a.seeVotes').on('click', function() {
 	$( 'img.votes' ).toggleClass( 'show' );
@@ -55,11 +55,6 @@ $('a.seeVotes').on('click', function() {
 
 });
 
-// $('#seeVotes').on('click', function() {
-// 	$('div').removeClass('hideForClickVotes');
-// 	$('img').removeClass('hideForClickVotes');
-// 	$('a.seeVotes').text('Look away ( ﾟoﾟ)');
-// });
 
 
 
