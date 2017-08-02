@@ -12,11 +12,6 @@ $('a.designSprintFullStudyReadLink').on('click', function() {
 	$( 'div.designSprintFullStudy' ).toggleClass( 'show' );
 	$( 'span.designSprintFullStudy' ).toggleClass( 'show' );
 	$('div.designTitle').toggleClass('caseStudy');
-	//make sure that "Close" goes back to Read
-
-	// put the class back on the title
-	//add a nice slide animation
-
 });
 
 $('a.bloomingdalesFullStudyReadLink').on('click', function() {
@@ -24,11 +19,6 @@ $('a.bloomingdalesFullStudyReadLink').on('click', function() {
 	$( 'span.bloomingdalesFullCaseStudy' ).toggleClass( 'show' );
 	$('div.bloomingdalesTitle').toggleClass('caseStudy');
 	$('a.bloomingdalesFullStudyReadLink').text('Close');
-	//make sure that "Close" goes back to Read
-
-	// put the class back on the title
-	//add a nice slide animation
-
 });
 
 $('a.bambooFullStudyReadLink').on('click', function() {
@@ -36,11 +26,6 @@ $('a.bambooFullStudyReadLink').on('click', function() {
 	$( 'span.bambooFullStudy' ).toggleClass( 'show' );
 	$('div.bambooTitle').toggleClass('caseStudy');
 	$('a.bambooFullStudyReadLink').text('Close');
-	//make sure that "Close" goes back to Read
-
-	// put the class back on the title
-	//add a nice slide animation
-
 });
 
 
@@ -48,11 +33,6 @@ $('a.seeVotes').on('click', function() {
 	$( 'img.votes' ).toggleClass( 'show' );
 	$( 'div.votes' ).toggleClass( 'show' );
 	$(' a.seeVotes' ).text( 'Look away ( ﾟoﾟ)' );
-	//make sure that "Close" goes back to Read
-
-	// put the class back on the title
-	//add a nice slide animation
-
 });
 
 
