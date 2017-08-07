@@ -1,15 +1,13 @@
-$('a.read').on('click', function() {
-	$('a.read').text('Close');
-	$('a.read').addClass('close');
-})
-
-$('a.close').on('click', function() {
-	console.log('hi');
-})
-
+// $('a.read').on('click', function() {
+// 	$(this).text('Close').toggleClass('close');
+// })
+//
+// $('a.close').on('click', function() {
+// 	$(this).text('Read');
+// })
 
 $('a.designSprintFullStudyReadLink').on('click', function() {
-	$( 'div.designSprintFullStudy' ).toggleClass( 'show' );
+	$( 'div.designSprintFullStudy' ).toggleClass( 'slow' );
 	$( 'span.designSprintFullStudy' ).toggleClass( 'show' );
 	$('div.designTitle').toggleClass('caseStudy');
 	//make sure that "Close" goes back to Read
@@ -18,6 +16,17 @@ $('a.designSprintFullStudyReadLink').on('click', function() {
 	//add a nice slide animation
 
 });
+
+$('a.read').click(function() {
+    $(this).text('Close');
+    if($('.show').is(':hidden')){
+          $(this).text('Close');
+    } else {
+          $(this).text('Read');
+    }
+});
+
+
 
 $('a.bloomingdalesFullStudyReadLink').on('click', function() {
 	$( 'div.bloomingdalesFullCaseStudy' ).toggleClass( 'show' );
