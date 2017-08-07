@@ -1,13 +1,4 @@
-// $('a.read').on('click', function() {
-// 	$(this).text('Close').toggleClass('close');
-// })
-//
-// $('a.close').on('click', function() {
-// 	$(this).text('Read');
-// })
-
 $('a.designSprintFullStudyReadLink').on('click', function() {
-	$( 'div.designSprintFullStudy' ).toggleClass( 'slow' );
 	$( 'span.designSprintFullStudy' ).toggleClass( 'show' );
 	$('div.designTitle').toggleClass('caseStudy');
 	//make sure that "Close" goes back to Read
