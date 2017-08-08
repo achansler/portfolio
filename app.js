@@ -1,4 +1,4 @@
-$('a.designSprintFullStudyReadLink').on('click', function() {
+$('div.designSprintFullStudy').on('click', function() {
 	$( 'span.designSprintFullStudy' ).toggleClass( 'show' );
 	$('div.designTitle').toggleClass('caseStudy');
 	//make sure that "Close" goes back to Read

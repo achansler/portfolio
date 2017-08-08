@@ -2319,6 +2319,7 @@ var widgetsAccordion = $.widget( "ui.accordion", {
 
 $( function() {
     $( ".accordion" ).accordion({
-      collapsible: true
+      collapsible: true,
+			active: false
     });
   } );
