@@ -37,26 +37,30 @@ $('a.seeVotes').on('click', function() {
 
 
 
-$('.toggle').click(function(e) {
-  	e.preventDefault();
-
-    var $this = $(this);
-
-    if ($this.next().hasClass('show')) {
-        $this.next().removeClass('show');
-        $this.next().slideUp(350);
-    } else {
-        $this.parent().parent().find('li .inner').removeClass('show');
-        $this.parent().parent().find('li .inner').slideUp(350);
-        $this.next().toggleClass('show');
-        $this.next().slideToggle(350);
-    }
-});
-
-
+// $('.toggle').click(function(e) {
+//   	e.preventDefault();
+//
+//     var $this = $(this);
+//
+//     if ($this.next().hasClass('show')) {
+//         $this.next().removeClass('show');
+//         $this.next().slideUp(350);
+//     } else {
+//         $this.parent().parent().find('li .inner').removeClass('show');
+//         $this.parent().parent().find('li .inner').slideUp(350);
+//         $this.next().toggleClass('show');
+//         $this.next().slideToggle(350);
+//     }
+// });
 
 $('a#seeRedlines').on('click', function() {
 	$('img').removeClass('hideForClickRedlines');
 	document.querySelector('#prototype').scrollIntoView({
+  behavior: 'smooth'});
+});
+
+
+$('a.thankYouCopyUp').on('click', function() {
+	document.querySelector('#work').scrollIntoView({
   behavior: 'smooth'});
 });
