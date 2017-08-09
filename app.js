@@ -1,11 +1,6 @@
 $('div.designSprintFullStudy').on('click', function() {
 	$( 'span.designSprintFullStudy' ).toggleClass( 'show' );
 	$('div.designTitle').toggleClass('caseStudy');
-	//make sure that "Close" goes back to Read
-
-	// put the class back on the title
-	//add a nice slide animation
-
 });
 
 $('a.read').click(function() {
@@ -19,28 +14,12 @@ $('a.read').click(function() {
 
 
 
-$('a.bloomingdalesFullStudyReadLink').on('click', function() {
-	$( 'div.bloomingdalesFullCaseStudy' ).toggleClass( 'show' );
-	$( 'span.bloomingdalesFullCaseStudy' ).toggleClass( 'show' );
+$('div.bloomingdalesTitle').on('click', function() {
 	$('div.bloomingdalesTitle').toggleClass('caseStudy');
-	$('a.bloomingdalesFullStudyReadLink').text('Close');
-	//make sure that "Close" goes back to Read
-
-	// put the class back on the title
-	//add a nice slide animation
-
 });
 
-$('a.bambooFullStudyReadLink').on('click', function() {
-	$( 'div.bambooFullStudy' ).toggleClass( 'show' );
-	$( 'span.bambooFullStudy' ).toggleClass( 'show' );
+$('div.bambooTitle').on('click', function() {
 	$('div.bambooTitle').toggleClass('caseStudy');
-	$('a.bambooFullStudyReadLink').text('Close');
-	//make sure that "Close" goes back to Read
-
-	// put the class back on the title
-	//add a nice slide animation
-
 });
 
 

@@ -245,6 +245,20 @@ a:hover:after {
   color: #013C81;
 }
 
+.title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid;
+  transition: 0.4s;
+}
+
+.title:hover:after {
+  width: 100%;
+}
+
 
 
 /* Lists
@@ -321,6 +335,10 @@ form {
   padding-bottom: 30px;
 }
 
+
+*:focus {
+    outline: none;
+}
 
 
 
