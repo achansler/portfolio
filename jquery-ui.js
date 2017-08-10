@@ -1760,6 +1760,7 @@ var widgetsAccordion = $.widget( "ui.accordion", {
 			header: "ui-icon-triangle-1-e"
 		},
 
+
 		// Callbacks
 		activate: null,
 		beforeActivate: null
@@ -1780,6 +1781,10 @@ var widgetsAccordion = $.widget( "ui.accordion", {
 		paddingBottom: "show",
 		height: "show"
 	},
+
+	// $( ".accordion" ).accordion({
+	// 	header: "h6"
+	// });
 
 	_create: function() {
 		var options = this.options;
