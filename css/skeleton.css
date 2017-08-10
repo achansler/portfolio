@@ -245,8 +245,12 @@ a:hover:after {
   color: #013C81;
 }
 
-.bloomingdalesTitle:hover, .bambooTitle:hover, .fe1SprintTitle:hover {
+.bloomingdalesTitle:hover, .bambooTitle:hover, .fe1SprintTitle:hover, .designSprintFullStudyReadLink:hover {
   cursor: pointer;
+}
+
+.noMarginLeft {
+  margin-left: 0%;
 }
 
 /* Lists
