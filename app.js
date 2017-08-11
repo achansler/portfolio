@@ -1,5 +1,6 @@
-$('div.designSprintFullStudy').on('click', function() {
-	$( 'span.designSprintFullStudy' ).toggleClass( 'show' );
+$('div.designSprintTitle').on('click', function() {
+	$( 'span.designSprintFullStudy' ).toggleClass('show');
+	$( 'div.designSprintFullStudy' ).slideToggle('show');
 	$('div.designTitle').toggleClass('caseStudy');
 });
 
@@ -16,10 +17,12 @@ $('a.read').click(function() {
 
 $('div.bloomingdalesTitle').on('click', function() {
 	$('div.bloomingdalesTitle').toggleClass('caseStudy');
+	$('div.bloomingdalesFullCaseStudy').slideToggle('show');
 });
 
 $('div.bambooTitle').on('click', function() {
 	$('div.bambooTitle').toggleClass('caseStudy');
+	$('div.bambooFullCaseStudy').slideToggle('show');
 });
 
 
