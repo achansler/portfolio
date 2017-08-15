@@ -37,17 +37,43 @@ $('div.bambooTitle').on('click', function() {
 		}
 });
 
+$('a.seeVotes').on('click', function() {
+	$('a').toggleClass('switchLinkVotes');
+	$('a.seeVotes').text('Look away ( ﾟoﾟ)');
+		if($('.switchLinkVotes').is(':hidden')) {
+			$('a.seeVotes').text('Look away ( ﾟoﾟ)');
+		} else {
+			$('a.seeVotes').text('See the votes ◕ ◡ ◕');
+		}
+});
+
+$('a.seeVotes').on('click', function() {
+	$('a.seeVotes').toggleClass('switchLinkVotes');
+	$('a.seeVotes').text('Look away ( ﾟoﾟ)');
+		if($('.switchLinkVotes').is(':hidden')) {
+			$('a.seeVotes').text('Look away ( ﾟoﾟ)');
+		} else {
+			$('a.seeVotes').text('See the votes ◕ ◡ ◕');
+		}
+});
 
 $('a.seeVotes').on('click', function() {
 	$( 'img.votes' ).toggleClass( 'show' );
 	$( 'div.votes' ).toggleClass( 'show' );
-	$(' a.seeVotes' ).text( 'Look away ( ﾟoﾟ)' );
-
 });
 
+$('a#seeRedlines').on('click', function() {
+	$('a').toggleClass('switchLinkFeedback');
+	$('a#seeRedlines').text(' Look away 【•】_【•】');
+		if($('.switchLinkFeedback').is(':hidden')) {
+			$('a#seeRedlines').text(' Look away 【•】_【•】');
+		} else {
+			$('a#seeRedlines').text(' Look at the feedback ๏_๏');
+		}
+});
 
 $('a#seeRedlines').on('click', function() {
-	$('img').removeClass('hideForClickRedlines');
+	$('img').toggleClass('hideForClickRedlines');
 	document.querySelector('#prototype').scrollIntoView({
   behavior: 'smooth'});
 });
