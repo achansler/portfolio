@@ -194,9 +194,6 @@ a:after {
   transition: 0.4s;
 }
 
-.designTitle:hover {
-
-}
 
 a:hover:after {
   width: 100%;

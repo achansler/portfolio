@@ -4,25 +4,23 @@ $('div.designTitle').on('click', function() {
 	$('div.designTitle').toggleClass('caseStudy');
 	$('a').toggleClass('closeDesign');
   $('a.designSprintFullStudyReadLink').text('Close');
-  	if($('.closeDesign').is(':hidden')){
-    	$('a.designSprintFullStudyReadLink').text('Close');
-    } else {
-    	$('a.designSprintFullStudyReadLink').text('Read');
-    }
+  if($('.closeDesign').is(':hidden')){
+    $('a.designSprintFullStudyReadLink').text('Close');
+  } else {
+    $('a.designSprintFullStudyReadLink').text('Read');
+  }
 });
-
-
 
 $('div.bloomingdalesTitle').on('click', function() {
 	$('div.bloomingdalesTitle').toggleClass('caseStudy');
 	$('div.bloomingdalesFullCaseStudy').slideToggle('show');
 	$('a').toggleClass('closeBloomingdales');
 	$('a.bloomingdalesFullStudyReadLink').text('Close');
-		if($('.closeBloomingdales').is(':hidden')){
-			$('a.bloomingdalesFullStudyReadLink').text('Close');
-		} else {
-			$('a.bloomingdalesFullStudyReadLink').text('Read');
-		}
+	if($('.closeBloomingdales').is(':hidden')){
+		$('a.bloomingdalesFullStudyReadLink').text('Close');
+	} else {
+		$('a.bloomingdalesFullStudyReadLink').text('Read');
+	}
 });
 
 $('div.bambooTitle').on('click', function() {
@@ -77,7 +75,6 @@ $('a#seeRedlines').on('click', function() {
 	document.querySelector('#prototype').scrollIntoView({
   behavior: 'smooth'});
 });
-
 
 $('a.thankYouCopyUp').on('click', function() {
 	document.querySelector('#work').scrollIntoView({
