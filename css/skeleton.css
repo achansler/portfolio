@@ -199,6 +199,9 @@ a:hover:after {
   width: 100%;
 }
 
+.title:hover a:after {
+  width: 100%;
+}
 
 .gaColor {
   color: #FA4542;

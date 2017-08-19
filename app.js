@@ -35,6 +35,14 @@ $('div.bambooTitle').on('click', function() {
 		}
 });
 
+$('a.email').on('mouseenter', function() {
+	$('a.email').text('aachansler@gmail.com');
+})
+
+$('a.email').on('mouseout', function() {
+	$('a.email').text('Email');
+})
+
 $('a.seeVotes').on('click', function() {
 	$('a').toggleClass('switchLinkVotes');
 	$('a.seeVotes').text('Look away ( ﾟoﾟ)');
