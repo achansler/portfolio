@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,13 +35,14 @@
   <div class="container">
     <div class="row">
       <div class = "nav">
-        <div class = "one-half column">
+        <div class = "five columns">
           <p class = "footerType">Abigail Chansler</p>
         </div>
-        <div class = "one-half column u-pull-right right">
+        <div class = "seven columns u-pull-right right">
           <a href = "https://www.linkedin.com/in/abigail-chansler-6417b580/" target = "blank" class = "marginNav linkedIn">LinkedIn</a>
           <a href = "https://dribbble.com/abigail-chansler" target = "blank" class = "marginNav dribbble">Dribbble</a>
-          <a href = "#" target="_top" class = "marginNav email">Email</a>
+          <a onclick="copyToClipboard('#copy')" target="_top" class = "marginNav email">Email</a>
+          <p class = 'show' id = "copy">aachansler@gmail.com </p>
           <!-- change this to a hover with email address -->
         </div>
       </div>
@@ -581,14 +583,13 @@
 
     <div class = "row">
       <div class = "footer">
-        <div class = "one-half column">
+        <div class = "five columns">
           <p class = "footerType">Abigail Chansler</p>
         </div>
-        <div class = "one-half column u-pull-right right">
+        <div class = "seven columns u-pull-right right">
           <a href = "https://www.linkedin.com/in/abigail-chansler-6417b580/" target = "blank" class = "marginNav linkedIn">LinkedIn</a>
           <a href = "https://dribbble.com/abigail-chansler" target = "blank" class = "marginNav dribbble">Dribbble</a>
-          <a href = "#" target="_top" class = "marginNav email">Email</a>
-
+          <a onclick="copyToClipboard('#copy')" target="_top" class = "marginNav email">Email</a>
         </div>
       </div>
     </div>

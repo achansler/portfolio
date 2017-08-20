@@ -35,13 +35,24 @@ $('div.bambooTitle').on('click', function() {
 		}
 });
 
-$('a.email').on('mouseenter', function() {
-	$('a.email').text('aachansler@gmail.com');
-})
+$('a.email').hover(function(){
+    $(this).hide().text('aachansler@gmail.com (Copy)').fadeIn("slow");
+}, function() {
+    $(this).hide().text('Email').fadeIn("slow");
+});
 
-$('a.email').on('mouseout', function() {
-	$('a.email').text('Email');
-})
+$('a.email').on('click', function() {
+	$(this).text('aachansler@gmail.com (Copied!)');
+});
+
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
 
 $('a.seeVotes').on('click', function() {
 	$('a').toggleClass('switchLinkVotes');
