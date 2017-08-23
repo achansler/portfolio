@@ -37,7 +37,7 @@ a:hover:after {
   color: #FA4542;
 }
 
-.bloomingdalesColor {
+.blackColor {
   color: #000000;
 }
 
@@ -287,4 +287,41 @@ iframe {
 
 .bambooAppDescriptionsGoal {
   padding-top: 100px;
+}
+
+@media (max-width: 414px) {
+  h1 { font-size: 5rem; font-family: 'Fira Mono', monospace; font-weight: 700; }
+  h2 { font-size: 4rem; }
+  h3 { font-size: 3.5rem; }
+  h4 { font-size: 2.75rem; }
+  h5 { font-size: 3.25rem; }
+  h6 { font-size: 3rem;}
+  p { font-size: 1.75rem; font-family: 'Open Sans', sans-serif;}
+  small { font-size: 1.6rem; font-family: 'Fira Mono', monospace; font-weight: 400; color: #4A4A4A; display: inline-block; text-align: right; }
+
+  .hero {
+    margin: 75px 0px 75px 0px;
+  }
+
+  .mobileAlign {
+    text-align: left;
+  }
+
+  .mobilePad {
+    margin-bottom: 25px;
+  }
+
+  .caseStudy {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .read {
+    display: none;
+  }
+
+  .footer {
+    margin-top: 75px;
+  }
+
 }

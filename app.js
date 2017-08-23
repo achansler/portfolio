@@ -35,10 +35,23 @@ $('div.bambooTitle').on('click', function() {
 		}
 });
 
+$('div.githubTitle').on('click', function() {
+	$('span.githubFullStudy').toggleClass('show');
+	$('div.githubFullStudy').slideToggle('show');
+	$('div.githubTitle').toggleClass('caseStudy');
+	$('a').toggleClass('closeGithub');
+  $('a.githubFullStudyReadLink').text('Close');
+  if($('.closeGithub').is(':hidden')){
+    $('a.githubFullStudyReadLink').text('Close');
+  } else {
+    $('a.githubFullStudyReadLink').text('Read');
+  }
+});
+
 $('a.email').hover(function(){
-    $(this).hide().text('aachansler@gmail.com (Copy)').fadeIn("slow");
+    $(this).hide().text('aachansler@gmail.com (Copy)').fadeIn("fast");
 }, function() {
-    $(this).hide().text('Email').fadeIn("slow");
+    $(this).hide().text('Email').fadeIn("fast");
 });
 
 $('a.email').on('click', function() {
