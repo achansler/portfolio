@@ -36,7 +36,6 @@ $('div.bambooTitle').on('click', function() {
 });
 
 $('div.githubTitle').on('click', function() {
-	$('span.githubFullStudy').toggleClass('show');
 	$('div.githubFullStudy').slideToggle('show');
 	$('div.githubTitle').toggleClass('caseStudy');
 	$('a').toggleClass('closeGithub');
@@ -45,6 +44,18 @@ $('div.githubTitle').on('click', function() {
     $('a.githubFullStudyReadLink').text('Close');
   } else {
     $('a.githubFullStudyReadLink').text('Read');
+  }
+});
+
+$('div.githubTitle2').on('click', function() {
+	$('div.githubFullStudy2').slideToggle('show');
+	$('div.githubTitle2').toggleClass('caseStudy');
+	$('a').toggleClass('closeGithub2');
+  $('a.githubFullStudyReadLink2').text('Close');
+  if($('.closeGithub2').is(':hidden')){
+    $('a.githubFullStudyReadLink2').text('Close');
+  } else {
+    $('a.githubFullStudyReadLink2').text('Read');
   }
 });
 

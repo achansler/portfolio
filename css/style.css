@@ -289,6 +289,10 @@ iframe {
   padding-top: 100px;
 }
 
+.hideForDesktop {
+  display: none;
+}
+
 @media (max-width: 414px) {
   h1 { font-size: 5rem; font-family: 'Fira Mono', monospace; font-weight: 700; }
   h2 { font-size: 4rem; }
@@ -322,6 +326,10 @@ iframe {
 
   .footer {
     margin-top: 75px;
+  }
+
+  .hideForMobile {
+    display: none;
   }
 
 }
