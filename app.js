@@ -114,7 +114,7 @@ $('a#seeRedlines').on('click', function() {
 });
 
 $('a#seeRedlines').on('click', function() {
-	$('img').toggleClass('hideForClickRedlines');
+	$('img.redlines').toggleClass('hideForClickRedlines');
 	document.querySelector('#prototype').scrollIntoView({
   behavior: 'smooth'});
 });
