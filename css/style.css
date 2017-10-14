@@ -163,39 +163,24 @@ iframe {
   background-color: #ffffff;
 }
 
-.howmightweimage{
-  left: -220px;
-  width: 700px;
-}
 
 .winningQuestionsBullets {
   margin-top: 283px;
 }
 
-.finalSketchImage {
-  left: 0px;
-  margin: 115px 0px 0px 0px;
-  width: 616px;
+.sketchesTop {
+  margin: 20px;
+}
+
+.prototypeMargin {
+  margin-bottom: 75px;
 }
 
 .definedProblemImage {
   padding: 50px 0px 50px 0px;
 }
 
-.relative {
-  position: relative;
-}
 
-.flows {
-  left: 0px;
-  width: 1041px;
-  margin: 25px 0px 25px 0px;
-}
-
-.scenarioWidth {
-  width: 538px;
-  left: -220px;
-}
 
 .candidateCaption {
   margin-top: 64px;
@@ -261,13 +246,11 @@ iframe {
   display: inline-block;
 }
 
-.finalSketchExplaination {
+
+.prototypeScenarios {
   padding-top: 125px;
 }
 
-.finalSketchCaption {
-  padding-top: 1000px;
-}
 
 .bambooWirefamesImage {
  margin: 25px 0px 0px 0px;
