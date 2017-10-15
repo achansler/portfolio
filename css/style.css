@@ -72,9 +72,14 @@ a:hover:after {
   color: #171515;
 }
 
+.secondaryList {
+  padding-left: 15px;
+}
+
 
 .blueLink {
   color: #013C81;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .bloomingdalesTitle:hover, .bambooTitle:hover, .fe1SprintTitle:hover, .designSprintFullStudyReadLink:hover, .email:hover {
@@ -88,6 +93,10 @@ a:hover:after {
 
 .marginNav {
   margin-right: 35px;
+}
+
+.bullets {
+  margin: 25px 0px 25px 0px;
 }
 
 .hero {
