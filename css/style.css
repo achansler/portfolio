@@ -80,6 +80,7 @@ a:hover:after {
 .blueLink {
   color: #013C81;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .bloomingdalesTitle:hover, .bambooTitle:hover, .fe1SprintTitle:hover, .designSprintFullStudyReadLink:hover, .email:hover {

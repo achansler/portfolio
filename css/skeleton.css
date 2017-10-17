@@ -153,7 +153,7 @@ h6 { font-size: 2.3rem; line-height: 1.6;  letter-spacing: 0; }
   h4 { font-size: 3.5rem; }
   h5 { font-size: 3.0rem; }
   h6 { font-size: 2.5rem;}
-  p { font-size: 2.3rem; font-family: 'Open Sans', sans-serif;}
+  p { font-size: 2.3rem; font-family: 'Open Sans', sans-serif; font-weight: 300;}
   small { font-size: 1.6rem; font-family: 'Fira Mono', monospace; font-weight: 400; color: #4A4A4A; display: inline-block; text-align: right; }
 }
 
