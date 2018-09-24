@@ -59,6 +59,18 @@ $('div.githubTitle2').on('click', function() {
   }
 });
 
+$('div.githubTitle3').on('click', function() {
+	$('div.githubFullStudy3').slideToggle('show');
+	$('div.githubTitle3').toggleClass('caseStudy');
+	$('a').toggleClass('closeGithub2');
+  $('a.githubFullStudyReadLink3').text('Close');
+  if($('.closeGithub3').is(':hidden')){
+    $('a.githubFullStudyReadLink3').text('Close');
+  } else {
+    $('a.githubFullStudyReadLink3').text('Read');
+  }
+});
+
 $('a.email').hover(function(){
     $(this).hide().text('aachansler@gmail.com (Copy)').fadeIn("fast");
 }, function() {
