@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>happy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="finals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Visual-Design-Testing-Copy-15" transform="translate(-841.000000, -9525.000000)">
+            <g id="quote-comparison-copy" transform="translate(132.000000, 9285.000000)">
+                <g id="happy" transform="translate(710.000000, 241.000000)">
+                    <circle id="Oval" stroke="#222222" cx="19.5" cy="19.5" r="19.5"></circle>
+                    <ellipse id="Oval" fill="#222222" cx="13.5" cy="12" rx="2" ry="6"></ellipse>
+                    <ellipse id="Oval-Copy" fill="#222222" cx="25.5" cy="12" rx="2" ry="6"></ellipse>
+                    <path d="M6.5,19.5 C6.5,26.9558441 12.3202983,33 19.5,33 C26.6797017,33 32.5,26.9558441 32.5,19.5" id="Path" stroke="#222222"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
